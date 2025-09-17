@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  font-family: Manrope, "Noto Sans", sans-serif;
+}
+
+@layer components {
+  .active {
+    @apply text-blue-500
+  }
+}
+
+@theme {
+  --color-primary: #3B82F6
+}
